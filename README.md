@@ -1,6 +1,7 @@
 # Everforest Theme
 
 ![img](examples/editor%20with%20viewport%20and%20shader.png)
+![img](examples/editor%20with%20text%20editor%20and%20output%20panel.png)
 
 ## Full Everforest Theme for Godot Engine
 
