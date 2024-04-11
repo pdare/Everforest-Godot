@@ -4,7 +4,7 @@
 
 ## Full Everforest Theme for Godot Engine
 
-Complete Everforest theme overhaul for the [Godot Game Engine](https://github.com/godotengine) including icons and built in code editor
+Complete Everforest theme overhaul for the [Godot Game Engine](https://github.com/godotengine) including icons and built in code editor based on the [Everforest theme](https://github.com/sainnhe/everforest-vscode) for VSCode by [sainnhe](https://github.com/sainnhe)
 
 ## How to use
 
