@@ -1,0 +1,7 @@
+C:/godot-4.2.1-stable/modules/regex/icons/
+C:/godot-4.2.1-stable/modules/gdscript/icons/
+C:/godot-4.2.1-stable/misc/dist/document_icons/
+C:/godot-4.2.1-stable/modules/mono/icons/
+C:/godot-4.2.1-stable/modules/csg/icons/
+C:/godot-4.2.1-stable/scene/theme/icons/
+C:/godot-4.2.1-stable/editor/icons/
