@@ -40,4 +40,4 @@ To be able to do these steps you'll have to compile Godot from source as the ico
 Once you have the source downloaded and extracted you'll have to find the folders listed in `svg-recolor/svgs/icon_paths.txt` and alter the paths there to fit wherever you saved the source files and with whatever version of Godot you're using. For example if you saved the source in `C:/Documents` and your source folder is `godot-4.2` then `C:/godot-4.2.1-stable/modules/regex/icons/` would become `C:/Documents/godot-4.2/modules/regex/icons/`
 You'll have to do this for all the file paths in the `icon_paths.txt` file. Once you've done that run `main.py` in the `svg-recolor` folder and it will recolor all the icons. Once this is done you can rebuild the source and your icons should be recolored. **YOU MUST REBUILD AFTER RUNNING THE SCRIPT OR YOUR ICONS WILL NOT CHANGE.**
 
-Thanks for using my theme, hope you like it :grin::two_hearts::revolving_hearts::v:
+Thanks for using my theme, hope conversion you like it :grin::two_hearts::revolving_hearts::v:
