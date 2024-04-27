@@ -11,7 +11,7 @@ This is for Godot 4.x and will not work for 3.x versions and you will have to bu
 
 ## How to use
 
-The theme has several components. The Godot editor is built with Godot so you can apply normal `.res` themes to it. The `everforest_theme.res` file will cover most of the changes needed but isn't capable of handling certain elements such as the icons (which is what the Python script is for) and the code editor (which is what the `Everforest-Dark-Medium.tet` is for). Due to the way Godot handles the icons you'll have to build the engine from source if you want to use the custom icons but if you don't want to do that you can still use the editor theme and text editor theme.
+The theme has several components. Download the [Release](https://github.com/pdare/Everforest-Godot/releases/tag/Everforest-Godot-Theme-v1.0), which has all the files you need. The Godot editor is built with Godot so you can apply normal `.tres` themes to it. The `everforest_theme.tres` file will cover most of the changes needed but isn't capable of handling certain elements such as the icons (which is what the Python script is for) and the code editor (which is what the `Everforest-Dark-Medium.tet` is for). Due to the way Godot handles the icons you'll have to build the engine from source if you want to use the custom icons but if you don't want to do that you can still use the editor theme and text editor theme.
 
 ### Applying the .tres theme file
 
