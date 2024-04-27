@@ -1,0 +1,60 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://rb2y3uwsdv5u"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vu3rn"]
+bg_color = Color(0.137255, 0.164706, 0.180392, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hic4m"]
+bg_color = Color(0.203922, 0.247059, 0.266667, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bg683"]
+bg_color = Color(0.176471, 0.207843, 0.231373, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ff4gj"]
+bg_color = Color(0.137255, 0.164706, 0.180392, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cdtp5"]
+bg_color = Color(0.309804, 0.345098, 0.368627, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i8xdm"]
+bg_color = Color(0.309804, 0.345098, 0.368627, 1)
+
+[resource]
+Button/colors/font_color = Color(0.827451, 0.776471, 0.666667, 1)
+Button/colors/font_disabled_color = Color(0.301961, 0.298039, 0.262745, 1)
+Button/colors/font_focus_color = Color(0.654902, 0.752941, 0.501961, 1)
+Button/colors/font_hover_color = Color(0.654902, 0.752941, 0.501961, 1)
+ItemList/colors/font_color = Color(0.827451, 0.776471, 0.666667, 1)
+ItemList/colors/font_hovered_color = Color(0.498039, 0.733333, 0.701961, 1)
+ItemList/colors/font_selected_color = Color(0.654902, 0.752941, 0.501961, 1)
+ItemList/colors/guide_color = Color(0.309804, 0.345098, 0.368627, 0.619608)
+ItemList/styles/panel = SubResource("StyleBoxFlat_vu3rn")
+ItemList/styles/selected = SubResource("StyleBoxFlat_hic4m")
+Label/colors/font_color = Color(0.827451, 0.776471, 0.666667, 1)
+LineEdit/colors/caret_color = Color(0.827451, 0.776471, 0.666667, 1)
+LineEdit/colors/font_color = Color(0.827451, 0.776471, 0.666667, 1)
+MenuBar/colors/font_color = Color(0.827451, 0.776471, 0.666667, 1)
+MenuBar/colors/font_hover_color = Color(0.513726, 0.752941, 0.572549, 1)
+MenuButton/colors/font_color = Color(0.827451, 0.776471, 0.666667, 1)
+MenuButton/colors/font_hover_color = Color(0.513726, 0.752941, 0.572549, 1)
+Panel/styles/panel = SubResource("StyleBoxFlat_bg683")
+PopupMenu/colors/font_color = Color(0.827451, 0.776471, 0.666667, 1)
+PopupMenu/colors/font_hover_color = Color(0.513726, 0.752941, 0.572549, 1)
+TabBar/colors/font_disabled_color = Color(0.301961, 0.298039, 0.262745, 1)
+TabBar/colors/font_selected_color = Color(0.827451, 0.776471, 0.666667, 1)
+TabBar/colors/font_unselected_color = Color(0.6, 0.537255, 0.407843, 1)
+TabContainer/colors/font_disabled_color = Color(0.301961, 0.298039, 0.262745, 1)
+TabContainer/colors/font_selected_color = Color(0.513726, 0.752941, 0.572549, 1)
+TabContainer/colors/font_unselected_color = Color(0.827451, 0.776471, 0.666667, 1)
+TextEdit/colors/caret_color = Color(0.827451, 0.776471, 0.666667, 1)
+TextEdit/colors/font_color = Color(0.827451, 0.776471, 0.666667, 1)
+Tree/colors/children_hl_line_color = Color(0.203922, 0.247059, 0.266667, 1)
+Tree/colors/drop_position_color = Color(0.752941, 0.423529, 0.290196, 1)
+Tree/colors/font_color = Color(0.827451, 0.776471, 0.666667, 1)
+Tree/colors/font_selected_color = Color(0.654902, 0.752941, 0.501961, 1)
+Tree/colors/guide_color = Color(0.309804, 0.345098, 0.368627, 1)
+Tree/colors/parent_hl_line_color = Color(0.654902, 0.752941, 0.501961, 1)
+Tree/colors/relationship_line_color = Color(0.309804, 0.345098, 0.368627, 1)
+Tree/colors/title_button_color = Color(0.431373, 0.709804, 0.596078, 1)
+Tree/styles/panel = SubResource("StyleBoxFlat_ff4gj")
+Tree/styles/selected = SubResource("StyleBoxFlat_cdtp5")
+Tree/styles/selected_focus = SubResource("StyleBoxFlat_i8xdm")
