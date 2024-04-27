@@ -115,15 +115,31 @@ def get_all_colors(filse_list):
     print(fill_colors)
     print(stroke_colors)
 
+#icon_paths = []
+#icon_paths.append("modules/regex/icons/")
+#icon_paths.append("modules/gdscript/icons/")
+#icon_paths.append("misc/dist/document_icons/")
+#icon_paths.append("modules/mono/icons/")
+#icon_paths.append("modules/csg/icons/")
+#icon_paths.append("scene/theme/icons/")
+#icon_paths.append("editor/icons/")
 
-file = open('icon_paths.txt', 'r')
+print("Enter the path to your main godot folder")
+print("for example if you downloaded 4.2 and unzipped the source directly to the C drive it would be C:/godot-4.2/")
+godot_path = input(": ").strip()
+
+end_slash_regex = "/$"
+if re.match(end_slash_regex, godot_path) == None:
+    godot_path = godot_path + "/"
+
+file = open(os.join(ROOT_DIR, 'icon_paths.txt', 'r'))
 icon_paths = file.readlines()
 file.close()
 iterator = 0
-for n in icon_paths:
+for n in range(0, 6):
     icon_paths[iterator] = n.replace('\n', '')
     iterator += 1
-file = open("excludes.txt")
+file = open(os.join(ROOT_DIR, "excludes.txt", 'r'))
 excludes_list = file.readlines()
 file.close()
 
