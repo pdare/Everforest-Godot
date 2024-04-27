@@ -2,3 +2,4 @@
 svg-recolor/config/__pycache__/
 svg-recolor/executeable/build/
 *.spec
+*.png

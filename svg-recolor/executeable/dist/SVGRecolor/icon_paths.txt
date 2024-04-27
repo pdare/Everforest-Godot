@@ -1,7 +1,0 @@
-godot-4.2/modules/regex/icons/
-godot-4.2/modules/gdscript/icons/
-godot-4.2/misc/dist/document_icons/
-godot-4.2/modules/mono/icons/
-godot-4.2/modules/csg/icons/
-godot-4.2/scene/theme/icons/
-godot-4.2/editor/icons/
