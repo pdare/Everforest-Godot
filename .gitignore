@@ -1,5 +1,7 @@
 *.svg
 svg-recolor/config/__pycache__/
 svg-recolor/executeable/build/
+RecolorExecutable/
 *.spec
 *.png
+find_grey.py

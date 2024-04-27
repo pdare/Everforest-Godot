@@ -15,7 +15,7 @@ The theme has several components. The Godot editor is built with Godot so you ca
 
 ### Applying the .res theme file
 
-This is the easiest step. Simply click on `Editor -> Editor Settings` in the file menu then under `Interface` in the `General` settings tab click on `Theme` and at the bottom you'll find a `Custom Theme` option. Click on the folder icon and navigate to wherever you saved the `.res` file and click on it and it will apply the theme.
+This is the easiest step. Simply click on `Editor -> Editor Settings` in the file menu then under `Interface` in the `General` settings tab click on `Theme` and at the bottom you'll find a `Custom Theme` option. Click on the folder icon and navigate to wherever you saved the `.res` file and click on it and it will apply the theme. You'll also have to change the `Base Color` to `7fbbb3` and `Accent Color` to `7fbbb3`. 
 ![img](examples/add%20theme.png)
 
 ### Applying the text editor theme
@@ -37,7 +37,7 @@ If you need more help applying the text editor theme you can find the official G
 
 To be able to do these steps you'll have to compile Godot from source as the icons are built into the executable at compile time. If you need help building from source the Godot project has a guide [here](https://docs.godotengine.org/en/stable/contributing/development/compiling/index.html) so I won't go over how to do this here.
 
-Once you have the source downloaded and extracted you'll have to find the folders listed in `svg-recolor/svgs/icon_paths.txt` and alter the paths there to fit wherever you saved the source files and with whatever version of Godot you're using. For example if you saved the source in `C:/Documents` and your source folder is `godot-4.2` then `C:/godot-4.2.1-stable/modules/regex/icons/` would become `C:/Documents/godot-4.2/modules/regex/icons/`
-You'll have to do this for all the file paths in the `icon_paths.txt` file. Once you've done that run `main.py` in the `svg-recolor` folder and it will recolor all the icons. Once this is done you can rebuild the source and your icons should be recolored. **YOU MUST REBUILD AFTER RUNNING THE SCRIPT OR YOUR ICONS WILL NOT CHANGE.**
+Run SVGRecolor and enter the filepath to your Godot source directory. After this finishes running you'll have to recompile Godot and the new icon colors should be applied. If you'd rather not use the executable you can run main.py but you'll have to install the svg Python package for it to work.
+**YOU MUST REBUILD AFTER RUNNING THE SCRIPT OR YOUR ICONS WILL NOT CHANGE.**
 
 Thanks for using my theme conversion, hope you like it :grin::two_hearts::revolving_hearts::v:
