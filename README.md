@@ -13,9 +13,9 @@ This is for Godot 4.x and will not work for 3.x versions and you will have to bu
 
 The theme has several components. The Godot editor is built with Godot so you can apply normal `.res` themes to it. The `everforest_theme.res` file will cover most of the changes needed but isn't capable of handling certain elements such as the icons (which is what the Python script is for) and the code editor (which is what the `Everforest-Dark-Medium.tet` is for). Due to the way Godot handles the icons you'll have to build the engine from source if you want to use the custom icons but if you don't want to do that you can still use the editor theme and text editor theme.
 
-### Applying the .res theme file
+### Applying the .tres theme file
 
-This is the easiest step. Simply click on `Editor -> Editor Settings` in the file menu then under `Interface` in the `General` settings tab click on `Theme` and at the bottom you'll find a `Custom Theme` option. Click on the folder icon and navigate to wherever you saved the `.res` file and click on it and it will apply the theme. You'll also have to change the `Base Color` to `7fbbb3` and `Accent Color` to `7fbbb3`. 
+This is the easiest step. Simply click on `Editor -> Editor Settings` in the file menu then under `Interface` in the `General` settings tab click on `Theme` and at the bottom you'll find a `Custom Theme` option. Click on the folder icon and navigate to wherever you saved the `.tres` file and click on it and it will apply the theme. You'll also have to change the `Base Color` to `7fbbb3` and `Accent Color` to `7fbbb3`. 
 ![img](examples/add%20theme.png)
 
 ### Applying the text editor theme
