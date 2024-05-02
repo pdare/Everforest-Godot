@@ -15,7 +15,7 @@ The theme has several components. Download the [Release](https://github.com/pdar
 
 ### Applying the .tres theme file
 
-This is the easiest step. Simply click on `Editor -> Editor Settings` in the file menu then under `Interface` in the `General` settings tab click on `Theme` and at the bottom you'll find a `Custom Theme` option. Click on the folder icon and navigate to wherever you saved the `.tres` file and click on it and it will apply the theme. You'll also have to change the `Base Color` to `7fbbb3` and `Accent Color` to `7fbbb3`. 
+This is the easiest step. Simply click on `Editor -> Editor Settings` in the file menu then under `Interface` in the `General` settings tab click on `Theme` and at the bottom you'll find a `Custom Theme` option. Click on the folder icon and navigate to wherever you saved the `.tres` file and click on it and it will apply the theme. You'll also have to change the `Base Color` to `2d353b` and `Accent Color` to `7fbbb3`. 
 ![img](examples/add%20theme.png)
 
 ### Applying the text editor theme
